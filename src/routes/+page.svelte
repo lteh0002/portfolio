@@ -27,7 +27,7 @@
   </div>
   <div class="flex flex-col items-center mt-[10vw]">
     <h1 class="relative text-[10.53vw] z-[8000] mb-[0.5vw]">Hi! I'm Lin Hui!</h1>
-    <h1 class="relative text-[8.5vw] z-[8000] mb-[0.5vw]">I'm a full-stack developer <br> based in Kuala Lumpur.</h1>
+    <h1 class="relative text-[7.5vw] z-[8000] mb-[0.5vw]">I'm a full-stack developer <br> based in Kuala Lumpur.</h1>
     <div class="h-10">
       {#each jobTitles as jobTitle, index}
         {#if index === currentIndex}
