@@ -1,7 +1,5 @@
 <script>
 	import TypeWriter from 'svelte-typewriter';
-  import Header from './Header.svelte';
-  import About from "./About.svelte";
 
 	let jobTitles = ['Full Stack Web Developer', 'Civil Engineer', 'Crypto Enthusiast'];
 	let currentIndex = 0;
@@ -17,21 +15,54 @@
 	}
 </script>
 
-<div class="relative max-w-full px-[10vw] mt-[3vw] mb-[5.8vw]">
-  <div>      
-    <img class="absolute w-[40.3vw] left-[48.25vw] top-[0.5vw] z-0 rounded-3xl" src="memoji.png" alt="memoji" />
-    <h1 class="relative text-[9.53vw] z-[9999] mt-[0.5vw]">Hi!</h1>
-    <h1 class="relative text-[5.53vw] z-[9999] mb-[0.5vw]">I'm Lin Hui!</h1>
+<style>
+  .transform-scale-y-minus-1 {
+  transform: scaleX(-1);
+}
+</style>
+
+<div class="relative max-w-full px-[6vw] pt-[1.1vw] mt-[3vw] sm:hidden">
+  <div class="flex justify-center">
+    <img class="w-[70.3vw]" src="memoji.png" alt="memoji" />
+  </div>
+  <div class="flex flex-col items-center mt-[10vw]">
+    <h1 class="relative text-[10.53vw] z-[8000] mb-[0.5vw]">Hi! I'm Lin Hui!</h1>
+    <h1 class="relative text-[8.5vw] z-[8000] mb-[0.5vw]">I'm a full-stack developer <br> based in Kuala Lumpur.</h1>
     <div class="h-10">
       {#each jobTitles as jobTitle, index}
         {#if index === currentIndex}
-          <TypeWriter interval={50}><span class="text-[3.28vw]">{jobTitle}</span></TypeWriter>
+          <TypeWriter interval={50}><span class="text-[7vw]">{jobTitle}</span></TypeWriter>
         {:else}
           <p style="display: none;">{jobTitle}</p>
         {/if}
       {/each}
     </div>
-  <img class="w-[14vw] h-auto mt-[3.9vw]" src="arrow.svg" alt="arrow" />
+    <img class="w-[50vw] mt-[12vw] transform-scale-y-minus-1" src="arrow.svg" alt="arrow" />
+  </div>
+</div>
+
+
+<div class="hidden sm:block relative max-w-full px-[6vw] pt-[1.1vw] mt-[3vw]">
+  <div>
+    <div class="hidden sm:grid absolute w-[40.3vw] left-[20.25vw] top-[5vw] chat chat-end">
+      <div class="chat-bubble text-[4vw]">I'm Lin Hui!</div>
+    </div>
+    <img class="absolute w-[40.3vw] left-[53.25vw] top-[0.5vw] z-0" src="memoji.png" alt="memoji" />
+    <h1 class="relative text-[7.53vw] z-[8000] mt-[0.5vw] pt-7">Hi, <span id="name" class="sm:hidden">I'm Lin Hui!</span></h1>
+    <h1 class="hidden relative text-[5.53vw] z-[8000] mb-[0.5vw]">I'm Lin Hui!</h1>
+    <h1 class="relative text-[4.5vw] z-[8000] mb-[0.5vw]">I'm a full-stack developer <br> based in Kuala Lumpur.</h1>
+    <div class="h-10">
+      {#each jobTitles as jobTitle, index}
+        {#if index === currentIndex}
+          <TypeWriter interval={50}><span class="text-[4vw]">{jobTitle}</span></TypeWriter>
+        {:else}
+          <p style="display: none;">{jobTitle}</p>
+        {/if}
+      {/each}
+    </div>
+    <div>
+      <img class="w-[17vw] mt-[3.9vw]" src="arrow.svg" alt="arrow" />
+    </div>
   </div>
 </div>
 
