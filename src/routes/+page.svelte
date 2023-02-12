@@ -16,6 +16,9 @@
 </script>
 
 <style>
+  #chat-bubble {
+    font-family: 'Kalam', cursive;
+  }
   .transform-scale-y-minus-1 {
   transform: scaleX(-1);
 }
@@ -45,7 +48,7 @@
 <div class="hidden sm:block relative max-w-full px-[6vw] pt-[1.1vw] mt-[3vw]">
   <div>
     <div class="hidden sm:grid absolute w-[40.3vw] left-[20.25vw] top-[5vw] chat chat-end">
-      <div class="chat-bubble text-[4vw]">I'm Lin Hui!</div>
+      <div class="chat-bubble text-[4vw]" id="chat-bubble">I'm Lin Hui!</div>
     </div>
     <img class="absolute w-[40.3vw] left-[53.25vw] top-[0.5vw] z-0" src="memoji.png" alt="memoji" />
     <h1 class="relative text-[7.53vw] z-[8000] mt-[0.5vw] pt-7">Hi, <span id="name" class="sm:hidden">I'm Lin Hui!</span></h1>
