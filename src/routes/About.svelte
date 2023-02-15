@@ -1,8 +1,8 @@
 <div id="aboutme" class="max-w-full px-[6vw] pt-[17vw] sm:pt-[4.5vw] md:pt-[2vw]">
-	<h1 class="text-[7vw]">About Me</h1>
+	<h1 class="text-[6vw]">About Me</h1>
 	<div class="sm:flex">
 		<div class="flex flex-col gap-3 text-justify">
-			<p class="text-[4.95vw] sm:text-[2.5vw] md:text-[2vw]">
+			<p class="text-[4.95vw] pt-[0.5vw] sm:text-[2.5vw] md:text-[2vw]">
 				Hey! I'm <strong><i>Lin Hui</i></strong>. Previously a Civil Engineer, now a full stack web developer!
 			</p>
 			<p class="text-[4.95vw] sm:text-[2.5vw] md:text-[2vw]">
@@ -10,7 +10,7 @@
 				interest in web development. Hence, I taught myself how to code and was soon hooked on the
 				creativity and limitless possibilities of the tech world.
 			</p>
-			<p class="hidden text-[4.95vw] sm:block sm:text-[2.5vw] md:text-[2vw]">
+			<p class="hidden text-[4.95vw] sm:block sm:text-[2.5vw] md:text-[2vw] pb-[0.5vw]">
 				I believe that a website should not only look good, but it should also be functional, easy
 				to use, and accessible to all. That's why I strive to create web applications that not only
 				look great but also offer a seamless and intuitive user experience.
@@ -22,34 +22,34 @@
 			</p> -->
 		</div>
 	</div>
-	<div class="flex gap-10 carousel carousel-end h-[25vw] sm:h-[17vw] mt-[3vw]">
-		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[85%]">
-			<img class="h-[85%]" src="javascript.webp" alt="Drink" />
-			<p class="text-[11px] sm:text-[2.4vw]">Javascript</p>
+	<div class="flex gap-6 carousel carousel-end h-[17vw] lg:h-[14vw] mt-[3vw]">
+		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[75%] w-[11vw]">
+			<img class="h-[75%]" src="javascript.webp" alt="Drink" />
+			<p class="text-[2.3vw]">Javascript</p>
 		</div>
-		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[85%]">
-			<img class="h-[85%]" src="html.webp" alt="Drink" />
-			<p class="text-[11px] sm:text-[2.4vw]">HTML</p>
+		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[75%] w-[11vw]">
+			<img class="h-[75%]" src="html.webp" alt="Drink" />
+			<p class="text-[2.3vw] sm:text-[2vw]">HTML</p>
 		</div>
-		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[85%]">
-			<img class="h-[85%]" src="css-3-icon.webp" alt="Drink" />
-			<p class="text-[11px] sm:text-[2.4vw]">CSS</p>
+		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[75%] w-[11vw]">
+			<img class="h-[75%]" src="css-3-icon.webp" alt="Drink" />
+			<p class="text-[2.3vw] sm:text-[2vw]">CSS</p>
 		</div>
-		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[85%]">
-			<img class="h-[85%]" src="capacitorjs.webp" alt="Drink" />
-			<p class="text-[11px] sm:text-[2.4vw]">CapacitorJS</p>
+		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[75%] w-[11vw]">
+			<img class="h-[75%]" src="capacitorjs.webp" alt="Drink" />
+			<p class="text-[2.3vw] sm:text-[2vw]">CapacitorJS</p>
 		</div>
-		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[85%]">
-			<img class="h-[85%]" src="git.webp" alt="Drink" />
-			<p class="text-[11px] sm:text-[2.4vw]">Git</p>
+		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[75%] w-[11vw]">
+			<img class="h-[75%]" src="git.webp" alt="Drink" />
+			<p class="text-[2.3vw] sm:text-[2vw]">Git</p>
 		</div>
-		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[85%]">
-			<img class="h-[85%]" src="github.webp" alt="Drink" />
-			<p class="text-[11px] sm:text-[2.4vw]">Github</p>
+		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[75%] w-[11vw]">
+			<img class="h-[75%]" src="github.webp" alt="Drink" />
+			<p class="text-[2.3vw] sm:text-[2vw]">Github</p>
 		</div>
-		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[85%]">
-			<img class="h-[85%]" src="svelte.webp" alt="Drink" />
-			<p class="text-[11px] sm:text-[2.4vw]">Svelte</p>
+		<div class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[75%] w-[11vw]">
+			<img class="h-[75%]" src="svelte.webp" alt="Drink" />
+			<p class="text-[2.3vw] sm:text-[2vw]">Svelte</p>
 		</div>
 	</div>
 </div>
