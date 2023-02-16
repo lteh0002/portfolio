@@ -1,44 +1,76 @@
-<div class="flex gap-6 carousel carousel-end h-[20vw] sm:h-[17vw] lg:h-[14vw] mt-[3vw]">
-		<div
-			class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
+<style>
+  .material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+  }
+</style>
+
+<div class="carousel carousel-end h-[20vw] sm:h-[17vw] lg:h-[14vw] mt-[3vw]">
+  <div class="overflow-x-auto flex gap-6">
+    <div
+			class="snap-start flex flex-col items-center carousel-item border border-dotted border-[#BDBDBD] p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
 		>
-			<img class="h-[75%]" src="javascript.webp" alt="Drink" />
-			<p class="text-[2.6vw]">Javascript</p>
+			<img class="h-[75%]" src="javascript.webp" alt="Javascript" />
+			<p class="text-[2.6vw] sm:text-[2vw]">Javascript</p>
 		</div>
 		<div
-			class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
+			class="snap-start flex flex-col items-center carousel-item border border-dotted border-[#BDBDBD] p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
 		>
-			<img class="h-[75%]" src="html.webp" alt="Drink" />
+			<img class="h-[75%]" src="html.webp" alt="HTML" />
 			<p class="text-[2.6vw] sm:text-[2vw]">HTML</p>
 		</div>
 		<div
-			class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
+			class="snap-start flex flex-col items-center carousel-item border border-dotted border-[#BDBDBD] p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
 		>
-			<img class="h-[75%]" src="css-3-icon.webp" alt="Drink" />
+			<img class="h-[75%]" src="css-3-icon.webp" alt="CSS" />
 			<p class="text-[2.6vw] sm:text-[2vw]">CSS</p>
 		</div>
 		<div
-			class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
+			class="snap-start flex flex-col items-center carousel-item border border-dotted border-[#BDBDBD] p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
 		>
-			<img class="h-[75%]" src="capacitorjs.webp" alt="Drink" />
+			<img class="h-[75%]" src="capacitorjs.webp" alt="CapacitorJS" />
 			<p class="text-[2.6vw] sm:text-[2vw]">CapacitorJS</p>
 		</div>
 		<div
-			class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
+			class="snap-start flex flex-col items-center carousel-item border border-dotted border-[#BDBDBD] p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
 		>
-			<img class="h-[75%]" src="git.webp" alt="Drink" />
+			<img class="h-[75%]" src="git.webp" alt="Git" />
 			<p class="text-[2.6vw] sm:text-[2vw]">Git</p>
 		</div>
 		<div
-			class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
+			class="snap-start flex flex-col items-center carousel-item border border-dotted border-[#BDBDBD] p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
 		>
-			<img class="h-[75%]" src="github.webp" alt="Drink" />
+			<img class="h-[75%]" src="github.webp" alt="Github" />
 			<p class="text-[2.6vw] sm:text-[2vw]">Github</p>
 		</div>
+    <div
+    class="snap-start flex flex-col items-center carousel-item border border-dotted border-[#BDBDBD] p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
+  >
+    <img class="h-[75%]" src="nodejs.webp" alt="NodeJS" />
+    <p class="text-[2.6vw] sm:text-[2vw]">NodeJS</p>
+  </div>
 		<div
-			class="flex flex-col items-center carousel-item border border-dotted p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
+			class="snap-start flex flex-col items-center carousel-item border border-dotted border-[#BDBDBD] p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
 		>
-			<img class="h-[75%]" src="svelte.webp" alt="Drink" />
+			<img class="h-[75%]" src="svelte.webp" alt="Svelte" />
 			<p class="text-[2.6vw] sm:text-[2vw]">Svelte</p>
 	</div>
+  <div
+			class="snap-start flex flex-col items-center carousel-item border border-dotted border-[#BDBDBD] p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
+		>
+			<img class="h-[75%]" src="pgsql.webp" alt="PostgreSQL" />
+			<p class="text-[2.6vw] sm:text-[2vw]">PostgreSQL</p>
+	</div>
+  </div>
 </div>
+
+<div class="flex items-center">
+  <p class="text-[1.7vw]">SCROLL TO SEE MORE</p>
+  <span class="material-symbols-outlined text-[2.5vw]">
+    keyboard_double_arrow_right
+    </span>
+</div>
+

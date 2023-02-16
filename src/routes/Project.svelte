@@ -1,3 +1,7 @@
+<script>
+	import Infinite from "./Infinite.svelte";
+
+</script>
 <div id="projects" class="max-w-full px-[6vw] pt-[6vw] mt-[1vw] mb-[5vw]">
   <h1 class="text-[7vw]">Projects</h1>
   <!-- <div class='border-b-4 mb-[1vw]'></div> -->
@@ -75,8 +79,8 @@
         <a href="#slide4" class="btn btn-circle">❮</a> 
         <a href="#slide2" class="btn btn-circle">❯</a>
       </div>
-      
     </div> 
+
     <div id="slide2" class="carousel-item relative w-full">
       <div>
         <img src="rockpaperscissor.png" class="w-full" alt="next-job-db.png"/>
@@ -126,3 +130,5 @@
     </div>
   </div>
   </div>
+
+  <!-- <Infinite/> -->

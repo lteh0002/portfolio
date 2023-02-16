@@ -5,16 +5,16 @@
 	<h1 class="text-[6vw]">About Me</h1>
 	<div class="sm:flex">
 		<div class="flex flex-col gap-3 text-justify">
-			<p class="text-[4.95vw] pt-[0.5vw] sm:text-[2.5vw] md:text-[2vw]">
+			<p class="text-[4vw] pt-[0.5vw] sm:text-[2.5vw] md:text-[2vw]">
 				Hey! I'm <strong><i>Lin Hui</i></strong>. Previously a Civil Engineer, now a full stack web
 				developer!
 			</p>
-			<p class="text-[4.95vw] sm:text-[2.5vw] md:text-[2vw]">
+			<p class="text-[4vw] sm:text-[2.5vw] md:text-[2vw]">
 				While I loved the problem-solving aspect of my previous field, I couldn't ignore my growing
 				interest in web development. Hence, I taught myself how to code and was soon hooked on the
 				creativity and limitless possibilities of the tech world.
 			</p>
-			<p class="hidden text-[4.95vw] sm:block sm:text-[2.5vw] md:text-[2vw] pb-[0.5vw]">
+			<p class="hidden text-[4vw] sm:block sm:text-[2.5vw] md:text-[2vw] pb-[0.5vw]">
 				I believe that a website should not only look good, but it should also be functional, easy
 				to use, and accessible to all. That's why I strive to create web applications that not only
 				look great but also offer a seamless and intuitive user experience.
