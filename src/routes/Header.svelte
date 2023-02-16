@@ -30,10 +30,10 @@
 	});
 </script>
 
-<div class="navbar bg-base-100 sticky top-0 z-[9999]">
-	<div class="flex-1">
+<div class="flex justify-between navbar bg-base-100 sticky top-0 z-[9999]">
+	<div class="flex-1 w-[90%] block">
 		<!-- svelte-ignore a11y-missing-attribute -->
-		<a class="btn btn-ghost normal-case text-xl">Teh Lin Hui</a>
+		<a class="btn btn-ghost normal-case text-[5vw] sm:text-[2.5vw]">Teh Lin Hui</a>
 	</div>
 
 	<div class="dropdown dropdown-end sm:hidden">

@@ -8,7 +8,7 @@
   }
 </style>
 
-<p class="mt-[3vw] text-[2vw]">Technologies I Use</p>
+<p class="mt-[3vw] text-[4vw] mb-[2vw]">Technologies I Use</p>
 <div class="carousel carousel-end h-[20vw] sm:h-[17vw] lg:h-[14vw]">
   <div class="overflow-x-auto flex gap-6">
     <div
@@ -68,9 +68,9 @@
   </div>
 </div>
 
-<div class="flex items-center">
-  <p class="text-[1.7vw]">SCROLL TO SEE MORE</p>
-  <span class="material-symbols-outlined text-[2.5vw]">
+<div class="flex items-center mt-[1vw]">
+  <p class="text-[3vw] sm:text-[2vw]">SCROLL TO SEE MORE</p>
+  <span class="material-symbols-outlined text-[5vw]  sm:text-[3vw]">
     keyboard_double_arrow_right
     </span>
 </div>
