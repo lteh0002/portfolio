@@ -8,7 +8,8 @@
   }
 </style>
 
-<div class="carousel carousel-end h-[20vw] sm:h-[17vw] lg:h-[14vw] mt-[3vw]">
+<p class="mt-[3vw] text-[2vw]">Technologies I Use</p>
+<div class="carousel carousel-end h-[20vw] sm:h-[17vw] lg:h-[14vw]">
   <div class="overflow-x-auto flex gap-6">
     <div
 			class="snap-start flex flex-col items-center carousel-item border border-dotted border-[#BDBDBD] p-[1vw] h-[80%] w-[14vw] sm:w-[11vw]"
