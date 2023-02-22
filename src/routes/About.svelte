@@ -1,7 +1,7 @@
 <script>
   import Carousel from "./Carousel.svelte";
 </script>
-<div id="aboutme" class="max-w-full px-[6vw] pt-[18vw] sm:pt-[8vw] md:pt-[10vw] lg:pt-[6vw] 2xl:pt-[3.5vw]">
+<div id="aboutme" class="max-w-full px-[6vw] pt-[14vw] sm:pt-[8vw] md:pt-[10vw] lg:pt-[4.5vw] 2xl:pt-[3.5vw]">
 	<h1 class="text-[5vw] lg:text-[3vw] font-bold">About Me</h1>
 	<div class="sm:flex">
 		<div class="flex flex-col gap-3 text-justify">

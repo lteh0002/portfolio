@@ -12,6 +12,10 @@
     scrollToSection('projects')
   }
 
+  function scrollToContact() {
+    scrollToSection('contact')
+  }
+
 	onMount(async () => {
 		if (
 			localStorage.theme === 'dark' ||
@@ -30,7 +34,7 @@
 	});
 </script>
 
-<div class="flex justify-between navbar bg-base-100 sticky top-0 z-[9999]">
+<div class="flex justify-between bg-base-100 sticky top-0 z-[9999] p-[0.3vw]">
 	<div class="flex-1 w-[90%] block">
 		<!-- svelte-ignore a11y-missing-attribute -->
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
@@ -54,7 +58,8 @@
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<li on:click={scrollToProject}><a>Projects</a></li>
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<li><a>Contact</a></li>
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
+			<li on:click={scrollToContact}><a>Contact</a></li>
 		</ul>
 	</div>
 
@@ -67,7 +72,8 @@
 			<!-- svelte-ignore a11y-missing-attribute -->
 			<li on:click={scrollToProject}><a>Projects</a></li>
 			<!-- svelte-ignore a11y-missing-attribute -->
-			<li><a>Contact</a></li>
+			<!-- svelte-ignore a11y-click-events-have-key-events -->
+			<li on:click={scrollToContact}><a>Contact</a></li>
 		</ul>
 	</div>
 </div>
