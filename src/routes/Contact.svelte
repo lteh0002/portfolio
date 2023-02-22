@@ -25,7 +25,6 @@
 			><i class="devicon-linkedin-plain-wordmark colored text-[13vw]" /></a
 		>
 		<p class="text-[3vw]">|</p>
-		<!-- <a href="https://github.com/lteh0002"  target="_blank" rel="noreferrer"><i class="devicon-github-original colored text-[10vw]"></i></a> -->
 		<a href="https://github.com/lteh0002"
 			><i class="devicon-github-original-wordmark text-[7vw] inline-block" /></a
 		>
