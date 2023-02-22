@@ -8,10 +8,10 @@
 			<img class="w-[30vw] sm:w-[30vw]" src="contact.png" alt="" />
 		</div>
 		<div class="flex flex-col w-[70%]">
-			<p class="text-[3.5vw] sm:text-[2.5vw] text-justify mt-[1.5vw]">
+			<p class="text-[3.5vw] md:text-[2.5vw] lg:text-[1.8vw] text-justify mt-[1.5vw]">
 				I am always looking for new challenges and opportunities to learn and grow.
 			</p>
-			<p class="text-[3.5vw] sm:text-[2.5vw] text-justify mt-[1.5vw]">
+			<p class="text-[3.5vw] md:text-[2.5vw] lg:text-[1.8vw] text-justify mt-[1.5vw]">
 				If you're looking for a web developer who is always striving to improve and bring new ideas
 				to the table, then let's connect and have a chat!
 			</p>
