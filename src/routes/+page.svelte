@@ -24,7 +24,7 @@
 }
 </style>
 
-<div class="relative max-w-full px-[6vw] mt-[11vw] sm:hidden">
+<div class="relative max-w-full px-[6vw] mt-[18vw] sm:hidden">
   <div class="flex justify-center">
     <img class="w-[70.3vw]" src="memoji.png" alt="memoji" />
   </div>
